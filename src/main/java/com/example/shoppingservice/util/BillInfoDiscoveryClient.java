@@ -8,12 +8,12 @@ import org.springframework.web.client.RestClient;
 import java.util.List;
 
 @Component
-public class BillInfoClient {
+public class BillInfoDiscoveryClient {
 
     final DiscoveryClient discoveryClient;
 
 
-    public BillInfoClient(DiscoveryClient discoveryClient) {
+    public BillInfoDiscoveryClient(DiscoveryClient discoveryClient) {
         this.discoveryClient = discoveryClient;
     }
 
